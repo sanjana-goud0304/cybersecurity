@@ -87,7 +87,7 @@ li{
     background-image: url(./images/home-img.jpg);
     width: 100%;
     height: 100%;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     margin:20px 20px;
     transition: all 0.2s ease-in-out 0.3s;
@@ -164,6 +164,7 @@ li{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transition: all 0.3ease-in-out 0.3s;
 }
 .text{
     font-size: 35px;
@@ -209,5 +210,8 @@ li{
     transform: scale(1.2,1.2);
     box-shadow: 10px 10px 5px ;
 }
-
+#videos:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 10px 5px #b2d8e9;
+}
 /* Media Queries for Responsiveness */
